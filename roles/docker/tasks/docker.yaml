@@ -1,0 +1,10 @@
+---
+- block:
+  - import: ../handlers/gpg_apt_key.yaml
+  - import: ../handlers/docker_repository.yaml
+  - import: ../handlers/docker_ce.yaml
+  - import: ../handlers/docker_module.yaml
+  - import: ../handlers/docker_image.yaml
+  - import: ../handlers/create_containers.yaml
+
+    

@@ -1,0 +1,6 @@
+- name: Clonar o projeto Voting APP
+  git:
+    repo: https://github.com/Azure-Samples/azure-voting-app-redis.git
+    dest: /azure-voting-app-redis
+  tags:
+    - git

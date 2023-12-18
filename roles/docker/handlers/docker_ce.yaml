@@ -1,0 +1,4 @@
+---
+- import_tasks: ../../defaults/tasks/install_packages.yaml
+  loop:
+    - docker-ce

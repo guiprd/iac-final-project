@@ -1,0 +1,9 @@
+---
+- name: Install required system package
+  apt:
+    pkg:
+      - "{{item}}"
+    state: latest
+    update_cache: true
+    force_apt_get: yes
+

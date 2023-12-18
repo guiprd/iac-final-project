@@ -1,0 +1,4 @@
+- name: Acessar o diretório azure-voting-app-redis
+  command: cd /azure-voting-app-redis
+  tags:
+    - change_directory

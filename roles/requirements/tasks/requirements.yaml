@@ -1,0 +1,17 @@
+---
+- block:
+    - name:  Install required system packages
+  vars:
+    ansible_python_interpreter: "/usr/bin/python3.9"
+  tasks:
+    - include: ../../defaults/tasks/install_packages.yaml
+      loop:
+        - aptitude
+        - apt-transport-https
+        - ca-certificates
+        - curl
+        - software-properties-common
+        - python3-pip
+        - virtualenv
+        - python3-setuptools
+        - git

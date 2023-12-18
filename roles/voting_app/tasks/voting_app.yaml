@@ -1,0 +1,5 @@
+---
+- block:
+  - import_tasks: ../handlers/repo_clone.yaml
+  - import_tasks: ../handlers/access_directory.yaml
+  - import_tasks: ../handlers/app.yaml

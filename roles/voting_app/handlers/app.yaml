@@ -1,0 +1,4 @@
+- name: Executar docker-compose up -d para subir a aplicação
+  command: docker-compose up -d
+  tags:
+    - docker_compose

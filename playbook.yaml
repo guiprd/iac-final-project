@@ -1,0 +1,8 @@
+- hosts: webservers
+  become: true
+  vars_files:
+    - vars/default.yaml
+  roles:
+    - requirements
+    - docker
+    - voting_app
